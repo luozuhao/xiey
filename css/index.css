@@ -1,0 +1,529 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+html,body{
+	 height: 100%;
+	 position: relative;
+}
+ *{
+ 	margin:0;
+ 	padding:0;
+ }
+ #wrap{
+ 	 width:100%;
+ 	 height: 100%;
+ 	 overflow: hidden;
+ 	 position: relative;
+ }
+ .swiper-container{
+ 	 width:100%;
+ 	 height: 100%;
+ 	 overflow: hidden;
+ 	 position: relative;
+ }
+.swiper-container img{
+ 	 width:100%;
+ }
+#logo{
+	 width:20%;
+	 position: absolute;
+	 left:7.32%;
+	 top:0;
+	 z-index: 100;
+}
+#logo img{
+	 width:100%;
+}
+#navigation{
+	 position: absolute;
+	 right:2%;
+	 top:5%;
+	 z-index: 200;
+}
+#navigation li{
+	 float: left;
+	 list-style: none;
+	 margin-right: 37px;
+}
+#navigation li:last-child{
+	 margin-right: 0px;
+}
+#navigation li a{
+	  color:#fff;
+	  font-size: 17px;
+}
+#navigation li:hover p{
+	  height: 2px;
+	  background: #cfdb00;
+	  margin-top: 5px;
+	  z-index: 200;
+	  -webkit-animation:fadeInUp 0.5s ;
+}
+#nav{
+	 position: absolute;
+	 right:10px;
+	 top:15px;
+	 z-index:200;
+}
+#nav div{
+	 width:37px;
+	 padding-left:113px;
+	 display: none;
+}
+#nav div img{
+	width: 100%;
+}
+#nav ul{
+    width: 150px;
+    height: 240px;
+    text-align: center;
+    background: #375b80;
+    line-height:29px;
+    z-index: 222;
+    margin-top: 5px;
+    display: none;
+}
+#nav ul li a{
+  font-size: 14px;
+  color:black;
+}
+#nav ul li a:hover{
+  font-size: 14px;
+  color:#fff;
+}
+.wen{
+	 color:#094d79;
+	 font-size: 45px;
+	 position: absolute;
+	 left:8.8%;
+	 top:30%;
+	 letter-spacing: 30px;
+	 z-index: 200;
+	 font-weight: bold;
+}
+.arrow{
+	 width:25px;
+	 position: absolute;
+	 left:50%;
+	 top:90%;
+	 z-index: 200;
+	 -webkit-animation:fadeIn 1s infinite;
+}
+.icon{
+	 position: fixed;
+	 left:0;
+	 top:50%;
+	 z-index: 200;
+}
+.icon li{
+	 width:50px;
+	 background: #9e989e;
+	 margin-bottom: 5px;
+	 opacity: 0.8;
+}
+.icon li img{
+	 width:50%;
+	 padding:15px 15px;
+	 -webkit-filter:grayscale(100%);
+}
+.icon li img:hover{
+	 -webkit-filter:grayscale(0);
+}
+#form{
+	 width:29%;
+	 position: fixed;
+	 left:50px;
+	 top:20%;
+	 z-index: 200;
+	 background: #7997b6;
+	 overflow: hidden;
+      z-index: 500;
+      display: none;
+}
+#form p{
+	 overflow: hidden;
+}
+#form .p1{
+	 color:#000000;
+	 font-size: 20px;
+	 margin-top: 20px;
+	 float: left;
+}
+#form .p2{
+	 width:20px;
+	 height: 4px;
+	 margin-top: 30px;
+	 float: right;
+	 background: black;
+}
+#form .p3{
+	 width:100%;
+	 height: 4px;
+	 background: #efefef;
+	 margin-top:60px;
+}
+#form form{
+	 margin-top: 30px;
+	 margin-left: 26px;
+}
+#form input{
+	  width:58.22%;
+	  height:30px;
+      margin-bottom: 13px;
+      -webkit-border-radius:5px;
+      color:#a5a5a5;  
+}
+#form form input:last-child{
+	 width:32%;
+	 color:#fff;
+	 text-align: center;
+     background: #434343;
+}
+#textarea{
+	width:58.22%;
+	height: 120px;
+    -webkit-border-radius:5px;
+    margin-bottom: 13px;
+    display: block;
+}
+h2{
+	 display: block;
+	 color:#424242;
+	 font-size:30px;
+	 margin:0 auto;
+	 margin-top:60px;
+	 text-align: center;
+}
+#service{
+	margin-left: 10%;
+	margin-top: 84px;
+	overflow: hidden;
+}
+#service li{
+	 width:14.78%;
+	 float: left;
+	 margin-right:10%;
+}
+#service li:last-child{
+	 margin-right: 0;
+}
+#service li img{
+	 width:100%;
+}
+#service h3{
+	 font-size: 24px;
+	 text-align: center;
+	 margin-top: 10px;
+}
+#service p{
+	 color:#777777;
+	 font-size: 14px;
+	 margin-top: 27px;
+	 text-align: center;
+}
+#heng{
+	 width:100%;
+	 margin-top: 65px;
+}
+#heng img{
+	 width:100%;
+}
+#center{
+	margin-top: 30px;
+	margin-left: 10%;
+    overflow: hidden;
+}
+#center li{
+	 float: left; 
+	 width:23.79%;
+	 margin-right: 10%;
+}
+#center li:last-child{
+	 margin-right:0;
+}
+#center h3{
+	 font-size: 24px;
+	 text-align: center;
+}
+#center p{ 
+     font-size: 14px;
+     margin-top: 30px;
+     color:#686868;
+ }
+#enterprise{
+
+	 overflow: hidden;
+	 margin:105px 0px 0px 15%;
+}
+#enterprise li{
+	 width:11.27%;
+	 float: left;
+	  margin-right: 3%;
+	  min-width: 67px;
+	  margin-bottom: 10px;
+}
+#enterprise li img{
+	 width:100%;
+}
+#partner img{
+	margin-top: 83px;
+	 width:100%;
+}
+#customer{
+	 margin-top: 108px;
+	 text-align: center;
+}
+#customer h3{
+   color:#848484;
+   font-size: 20px;
+   text-align: center;
+}
+#customer img{
+	 margin-top: 80px;
+	 width:80%;
+}
+#footer{
+	 width:100%;
+	 background:#838483;
+	 margin-top: 88px;
+}
+#footer div:first-child{
+	 overflow: hidden;
+	 position: relative; 
+}
+#footer .footer_end{
+	 margin-top: 53px;
+  	 float:left;
+  	 margin-left: 7%;
+}
+#footer .footer_end li{
+	 margin-bottom:11px;
+}
+#footer .footer_end li h3{
+	 margin-bottom: 22px;
+}
+#footer .footer_end li a{
+	 color:#fff;
+	 font-size: 13px;
+}
+.contact{
+	 float:left;
+	 margin-top: 53px;
+	 margin-left: 10%;
+	 position: relative;
+	 text-align: right;
+}
+.contact li{
+	 margin-bottom: 10px;
+	 color:#fff;
+	 font-size: 15px;
+}
+#footer .footer_end .con{
+	 margin-bottom: 30px;
+}
+.contact li a{
+    position: absolute;
+    right: 17px;
+    top: 10px;
+}
+.contact .phone_number{
+	 font-size: 25px;
+	 letter-spacing:3px;
+}
+.return{
+	 width:65px;
+	 height: 57px;
+	 position: fixed;
+	 right: 0;
+	 bottom:73px;
+	 z-index: 100;
+	 display:none;
+}
+.return img{
+	 width:100%;
+}
+#tail{
+	 width:100%;
+	 height: 67px;
+	 background:#353535;
+	 color:#fff;
+	 position: relative;
+	 text-align: center;
+}
+#tail p{
+	 width:100%;
+	 position: absolute;
+	 top:50%;
+	 left:0;
+	 font-size: 13px;	
+}
+#tail a{
+	position: absolute;
+	right: 99px;
+	top:50%;
+    margin-left: 3px;
+    color:#fff;
+}
+#tail a img{
+   vertical-align: inherit;
+       margin-left: 10px;
+}
+
+#footer1{
+	 width:100%;
+	 background:#838483;
+	 margin-top: 88px;
+	 display: none;
+}
+#footer1 div:first-child{
+	 padding-top:25px;
+}
+#footer1 div ul{
+	 overflow: hidden;
+	 margin-bottom: 20px;
+}
+#footer1 div ul li{
+	 float: left;
+	 margin-right: 10px;
+}
+#footer1 div h4{
+	 color:#fff;
+	 font-size: 15px;
+	 margin-bottom:10px;
+}
+#footer1 div ul li a{
+	 color:#fff;
+	 font-size: 13px;
+}
+#footer1 .contact1 li{
+	color:#fff;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width:1200px){
+	#navigation li{
+	 margin-right:20px;
+ }   
+}
+@media screen and (max-width:1055px){
+	#navigation li{
+	 margin-right:10px;
+ }
+ #form input,#textarea{
+    width: 79.22%;
+}   
+}
+@media screen and (max-width:960px){
+	#navigation {
+	  display: none;
+  }   
+  .wen{
+	 font-size: 30px;
+}
+#service li{
+	 width:43.2%;
+	 margin-right:5%;
+}
+#form {
+    width: 236px;
+}
+#form .p1 {
+    margin-top: 10px;
+}
+#form .p2 {
+    margin-top: 20px;
+}
+#form .p3 {
+    margin-top: 40px;
+}
+#form form {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+#form input, #textarea {
+    width: 91.22%;
+}
+#nav div{
+	 display: block;
+}
+}
+@media screen and (max-width:640px){
+	.wen {
+	    font-size: 20px;
+	    position: absolute;
+	    left: 8.8%;
+	    top: 20%;
+	    letter-spacing:15px;
+	}
+	#nav div {
+    width: 25px;
+    padding-left: 125px;
+}
+#nav {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    z-index: 200;
+} 
+#service li{
+	 width:90%;
+	 margin-right: 0;
+}
+#center {
+     margin-left: 0; 
+    overflow: hidden;
+    text-indent: 2em;
+}
+#center h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#center li {
+    width: 100%;
+    margin-right: 0; 
+}
+#center p {
+    font-size: 14px;
+    margin-top: 14px;
+    color: #686868;
+    line-height: 25px;
+}
+h2{
+	 margin-top:40px;
+}
+#customer,#customer img {
+    margin-top: 50px;
+    width: 100%;
+}
+#footer{
+	display: none;
+}
+#footer1{
+	 display: block;
+}
+#tail a {
+    position: absolute;
+    right: 50%;
+    top: 80%;
+}
+}
+@media screen and (max-width:320px){
+	.wen {
+	    font-size: 13px;
+	    position: absolute;
+	    left: 8.8%;
+	    top: 20%;
+	    letter-spacing: 10px;
+	}
+	#logo{
+     min-width: 65px;
+	}
+}

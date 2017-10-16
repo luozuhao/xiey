@@ -1,0 +1,299 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+
+*{
+	padding:0;
+	margin:0;
+}
+#wrap{
+	width:100%;
+
+}
+#center{
+	width:90%;
+	margin:auto;
+
+}
+#head{
+	width:100%;
+	position: relative;
+
+}
+.logo{
+	width:146px;
+	height: 53px;
+}
+.nav{
+    position: absolute;
+    top:10px;
+    right:0;
+    z-index: 10;
+}
+#tubiao1{
+	width:37px;
+	height: 33px;
+	float: right;
+	display: none;
+	margin-top: -38px;
+}
+.menu ul{
+    width: 200px;
+    position: absolute;
+    right: 41px;
+    top:50px;
+    text-align: center;
+    display: none;
+}
+.menu ul li {
+    background: yellow;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #F5F5DC;
+}
+.menu li:hover{
+	background:#17e59a;
+}
+.menu a li{
+	color:#353535;
+	font-size: 16px;
+	line-height: 30px;
+}
+.menu .sy{
+	color:blue;
+}
+#ul li{
+	float: left;
+	margin-left: 59px;
+}
+#ul .a1:hover a{
+   color:#fcc91a;
+}
+#ul .a1:hover p{
+	width:100%;
+	background:#fcc91a;
+	z-index:20;
+}
+#ul .a1 p{
+	width:13px;
+	height: 2px;
+	background: #353535;
+	margin-bottom: 13px;
+}
+#ul li .p{
+	width:100%;
+	height: 2px;
+	background:#fcc91a; 
+}
+#ul li a{
+	font-size: 14px;
+	color: #353535;
+}
+
+#ul li .a2{
+	font-size: 16px;
+	color:#fcc91a;
+}
+#center1{
+	width:100%;
+	margin-top:64px; 
+}
+#center1 .js{
+	margin-top: 62px; 
+	color:#616161;
+	font-size: 18px;
+}
+#c1{
+	width:100%;
+	margin-top: 14px;
+	overflow: hidden;
+}
+#c1 div{
+	 width:265px;
+	 height: 496px;
+	 margin-right: 23px;
+	 float: left;
+	 border:1px solid #eae7e0;
+	 margin-bottom: 15px;
+}
+#c1 div img{
+	width: 100%;
+}
+#c1 .d4{
+	margin-right: 0;
+}
+#c1 h2{
+	margin-top: 22px;
+    margin-left: 11px;
+}
+#c1 .e1{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+	color:#353535;
+	margin-left: 11px;
+}
+#c1 .e2 {
+    font-size: 13px;
+    color: #353535;
+    margin-top: 22px;
+    line-height: 17px;
+    margin-left: 11px;
+}
+#footer {
+	 width:100%;
+	 margin-top: 321px;
+}
+#foot{
+	float: left;
+}
+#footer:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+#foot .show{
+	 margin-right: 0px;
+}
+#foot>div{
+	float: left;
+	margin-right: 98px;
+}
+#foot>div .show{
+	 margin-right: 0px;
+}
+#foot h3{
+	margin-bottom: 20px;
+}
+#foot>div p{
+	line-height: 28px;
+	color: #5d5d5d;
+	font-size: 13px;
+}
+#nav1{
+	float: right;
+	text-align: right;
+	position: relative;
+	padding-top:36px;
+}
+#btn2{
+	width:119px;
+	height: 35px;
+	background: #fcc91a;
+	border-radius:3px;
+	position: absolute;
+	top:0;
+	left:125px;
+}
+#tu{
+	position: absolute;
+	left: 13px;
+	top:9px;
+}
+#tu .tu1 span a{
+	margin-left: 13px;
+	color:#ffffff;
+	font-size: 15px;
+}
+.number{
+	font-size: 20px;
+	margin-top:16px;
+	letter-spacing: 2px;
+}
+.time{
+	font-size: 15px;
+	color:#b4b4b4;
+	margin-top: 13px;
+
+}
+#footer1{
+	width:100%;
+	margin-top: 220px;
+	overflow: hidden;
+	display: none;
+}
+.foot1>div{
+	margin-bottom: 30px;
+}
+.foot1 h3{
+   display: inline-block;
+    margin-right: 10px;
+}
+.foot1 span{
+	 margin-right: 1px;
+}
+.foot1 span a{
+	font-family: "微软雅黑";
+	color:black;
+	font-size: 13px;
+}
+#consult{
+	  float: right;
+      text-align: right;
+}
+#rump{
+	width:100%;
+	border-top: 1px solid black;
+	margin-top: 35px;
+	text-align: center;
+	line-height:80px;
+	position: relative;
+	color:#dedede;
+	font-size: 13px;
+}
+.top{
+	position: absolute;
+	right: 0;
+	top:22px;
+}
+@media screen and (max-width:760px){
+   #ul li {
+    float: left;
+    margin-left:30px;
+  }
+}
+@media screen and (max-width:860px){
+    #foot>div{
+	  margin-right:45px;
+     }
+}
+@media screen and (max-width:640px){
+   #tubiao1{
+	 width:77px;
+	 height: 66px;
+	 float: right;
+	 display: block;
+   }
+   .nav{
+   	display: none;
+   }
+   #logo p{width:180px;height:15px;font-size:15px;}
+   #c1>div{
+   	 width:100%;
+   	 height: 100%;
+   }
+    #c1>div img{
+	width: 100%;
+	 height: 100%;
+  }
+  #c1>div h2 {
+    color: #353535;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  #c1 p {
+    margin:10px 0px;
+
+  }
+  #footer{display: none;}
+  #footer1{display: block}
+
+}
